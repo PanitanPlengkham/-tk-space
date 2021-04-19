@@ -87,4 +87,3 @@ class Ship(Sprite):
         bullet = Bullet(self.app, self.x, self.y, dx * BULLET_BASE_SPEED, dy * BULLET_BASE_SPEED)
 
         self.app.add_bullet(bullet)
-
